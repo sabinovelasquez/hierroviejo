@@ -15,7 +15,7 @@ $navbar-dark-toggler-border-color: hsl(33, 32%, 17%);
 @import "node_modules/bootstrap/scss/reboot";
 @import "node_modules/bootstrap/scss/type";
 @import "node_modules/bootstrap/scss/images";
-@import "node_modules/bootstrap/scss/code";
+// @import "node_modules/bootstrap/scss/code";
 @import "node_modules/bootstrap/scss/grid";
 // @import "node_modules/bootstrap/scss/tables";
 @import "node_modules/bootstrap/scss/forms";
@@ -27,7 +27,7 @@ $navbar-dark-toggler-border-color: hsl(33, 32%, 17%);
 @import "node_modules/bootstrap/scss/custom-forms";
 @import "node_modules/bootstrap/scss/nav";
 @import "node_modules/bootstrap/scss/navbar";
-@import "node_modules/bootstrap/scss/card";
+// @import "node_modules/bootstrap/scss/card";
 // @import "node_modules/bootstrap/scss/breadcrumb";
 // @import "node_modules/bootstrap/scss/pagination";
 @import "node_modules/bootstrap/scss/badge";
@@ -47,6 +47,26 @@ $navbar-dark-toggler-border-color: hsl(33, 32%, 17%);
 @import "node_modules/bootstrap/scss/print";
 @import 'node_modules/bootstrap-vue/src/index.scss';
 
+
+// ===================
+//      OUR STYLES
+// ===================
+
+// SETTINGS
+@import "settings/our-vars.scss";
+
+// BASE
+@import "base/fonts.scss";
+
 // OUR STYLES
 @import "components/navbar.scss";
+@import "components/title.scss";
+@import "components/culture-innovation.scss";
+@import "components/sinopsis.scss";
+@import "components/crew.scss";
+@import "components/sinopsis.scss";
+@import "components/roles.scss";
+@import "components/invest.scss";
+
+
 
