@@ -2,17 +2,26 @@
   main.bg(:style="{ backgroundImage: 'url(' + require('@/assets/images/bg.jpg') + ')' }")
     NavComponent
     HeaderComponent
+    SynopsisComponent
+    TeamComponent
+    CastComponent
 </template>
 
 <script>
 import NavComponent from './components/NavComponent'
 import HeaderComponent from './components/HeaderComponent.vue'
+import SynopsisComponent from './components/SynopsisComponent.vue'
+import TeamComponent from './components/TeamComponent.vue'
+import CastComponent from './components/CastComponent.vue'
 
 export default {
   name: 'App',
   components: {
     NavComponent,
-    HeaderComponent
+    HeaderComponent,
+    SynopsisComponent,
+    TeamComponent,
+    CastComponent
   }
 }
 </script>
