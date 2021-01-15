@@ -1,11 +1,13 @@
 import Vue from 'vue'
 import App from './App.vue'
 import store from './store'
-import { BootstrapVue } from 'bootstrap-vue'
+import { firestorePlugin } from 'vuefire'
 
+import { BootstrapVue } from 'bootstrap-vue'
 import './assets/scss/main.scss'
 
 Vue.use(BootstrapVue)
+Vue.use(firestorePlugin)
 
 Vue.config.productionTip = false
 

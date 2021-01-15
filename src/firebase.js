@@ -1,14 +1,13 @@
 import firebase from 'firebase/app'
 import 'firebase/firestore'
-import private from './config/private'
+import congif from './config/private.js'
 
-export const db = firebase
-  .initializeApp({
-    apiKey: private.FIREBASE_API_KEY,
-    authDomain: "hierro-viejo.firebaseapp.com",
-    projectId: "hierro-viejo",
-    storageBucket: "hierro-viejo.appspot.com",
-    messagingSenderId: private.MESSAGING_SENDER_ID,
-    appId: private.APP_ID,
-    measurementId: private.MEASUREMENT_ID
+export const db = firebase.initializeApp({
+  apiKey: congif.FIREBASE_API_KEY,
+  authDomain: 'hierro-viejo.firebaseapp.com',
+  projectId: 'hierro-viejo',
+  storageBucket: 'hierro-viejo.appspot.com',
+  messagingSenderId: congif.MESSAGING_SENDER_ID,
+  appId: congif.APP_ID,
+  measurementId: congif.MEASUREMENT_ID
 }).firestore()

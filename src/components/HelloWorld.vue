@@ -1,15 +1,30 @@
 <template lang="pug">
   section
-    h1 XOROOO
+    h1(v-if='info') {{info.title}}
     .container
-      button.btn.btn-primary(type="button") NAKOO
+      button.btn.btn-primary(type="button") more
 </template>
 
 <script>
+import { db } from '@/firebase'
+// import { mapActions, mapGetters } from 'vuex'
+
 export default {
   name: 'HelloWorld',
-  props: {
-    msg: String
+  data () {
+    return {
+      loading: true,
+      info: null
+    }
+  },
+  mounted () {
+    this.$bind('info', db.collection('info').doc('es'))
+      .then(() => {
+        this.loading = false
+      })
+      .catch((error) => {
+        this.error = error
+      })
   }
 }
 </script>
