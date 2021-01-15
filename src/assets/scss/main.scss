@@ -1,8 +1,5 @@
-$body-bg: #000;
-$body-color: #111;
-*{
-    margin: 0;
-}
+$body-bg: hsl(33, 70%, 88%);
+$body-color: hsl(33, 32%, 17%);
 
 
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
