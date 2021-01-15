@@ -1,6 +1,43 @@
-$body-bg: #000;
-$body-color: #111;
-
+$body-bg: hsl(33, 70%, 88%);
+$body-color: hsl(33, 38%, 6%);
+$primary: hsl(33, 70%, 88%);
+$navbar-dark-brand-color: hsl(33, 32%, 17%);
+$navbar-dark-color: hsl(33, 32%, 17%);
+$navbar-dark-hover-color:  hsl(33, 12%, 17%);
+$navbar-dark-active-color:        hsl(33, 82%, 17%);
+$navbar-dark-disabled-color:        hsl(33, 82%, 67%);;
+$navbar-dark-toggler-border-color: hsl(33, 32%, 17%);
 
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
 @import 'node_modules/bootstrap-vue/src/index.scss';
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:ital,wght@0,400;1,500&family=Rye&family=Ultra&display=swap');
+
+*{
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.rye{
+  font-family: 'Rye', cursive;
+}
+.ultra{
+  font-family: 'Ultra', serif;
+}
+.playfair{
+  font-family: 'Playfair Display', serif;
+}
+.main-title{
+  text-shadow: 1px 1px 1px rgba(2, 2, 0, 0.3);
+  color: darken($body-color, 8);
+  border-bottom: 3px solid black;
+  padding-bottom: 10px;
+  padding-top: 8px;
+  width: 100%;
+  text-align: center;
+}
+.upper{
+  text-transform: uppercase;
+}
+.bg{
+  background-size: inherit;
+  background-position: center center;
+}
