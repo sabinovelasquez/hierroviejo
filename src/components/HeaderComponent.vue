@@ -22,9 +22,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-  .header-box{
+.header-box{
   width: 100%;
   min-height: 100vh;
   padding-top: 10px;
-}
+  }
 </style>
