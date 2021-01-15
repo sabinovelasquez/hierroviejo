@@ -51,12 +51,12 @@ export default {
   font-size: 2em;
   padding: 5px 20px;
   &::before{
-    content: '\FD3E';
+    content: '\2619';
     font-size: .8em;
     margin-right: 6px;
   }
   &::after{
-    content: '\FD3F';
+    content: '\2767';
     font-size: .8em;
     margin-left: 6px;
   }
