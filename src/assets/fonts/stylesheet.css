@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Mortised Ornaments Free';
+    src: url('MortisedOrnamentsFree.eot');
+    src: url('MortisedOrnamentsFree.eot?#iefix') format('embedded-opentype'),
+        url('MortisedOrnamentsFree.woff2') format('woff2'),
+        url('MortisedOrnamentsFree.woff') format('woff'),
+        url('MortisedOrnamentsFree.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

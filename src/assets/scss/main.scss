@@ -46,7 +46,7 @@ $navbar-dark-toggler-border-color: hsl(33, 32%, 17%);
 @import "node_modules/bootstrap/scss/utilities";
 @import "node_modules/bootstrap/scss/print";
 @import 'node_modules/bootstrap-vue/src/index.scss';
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&family=Roboto:ital,wght@0,400;1,500&family=Rye&family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;800&family=Roboto:ital,wght@0,400;1,500&family=Rye&family=Ultra&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
 *{
   font-family: 'Playfair Display', serif;
@@ -60,10 +60,16 @@ $navbar-dark-toggler-border-color: hsl(33, 32%, 17%);
 }
 .playfair{
   font-family: 'Playfair Display', serif;
-  font-weight: 900;
+  font-weight: 800;
 }
-.pad{font-size: .9em;}
+.pad{
+  font-size: .9em;
+}
+a{
+  color:black;
+}
 .main-title{
+  font-size: 2.5em;
   text-shadow: 1px 1px 1px rgba(2, 2, 0, 0.3);
   color: darken($body-color, 8);
   border-bottom: 3px solid black;

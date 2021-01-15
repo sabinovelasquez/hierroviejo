@@ -3,10 +3,11 @@ import App from './App.vue'
 import store from './store'
 import { firestorePlugin } from 'vuefire'
 
-import { BootstrapVue } from 'bootstrap-vue'
+import { BootstrapVue, VBTogglePlugin } from 'bootstrap-vue'
 import './assets/scss/main.scss'
 
 Vue.use(BootstrapVue)
+Vue.use(VBTogglePlugin)
 Vue.use(firestorePlugin)
 
 Vue.config.productionTip = false

@@ -5,16 +5,29 @@
         .col-12.text-center
           b-img.seal.mx-auto.d-block(alt="Cousiño", fluid, :src="require('@/assets/images/seal.png')")
         .col-12.d-flex.justify-content-center.align-content-center
-          h1.display-4.main-title.upper.playfair Hierro Viejo
-        .col-12.d-flex.justify-content-center.align-content-center
-          blockquote
-            h2.mt-1.mb-5.title.playfair Hierro Viejo es un proyecto de Innovación Cultural
+          h1.display-4.main-title.upper.playfair
+            span
+              img.main-logo(svg-inline, src='@/assets/svg/or_left.svg', alt='Ornament', width='30px')
+            span Hierro Viejo
+            span
+              img(svg-inline, src='@/assets/svg/or_right.svg', alt='Ornament', width='30px')
       .row
+        .col-6.align-content-center
+          b-img.pale(src="https://media.giphy.com/media/nDisn0QplYSujxtWIW/giphy-downsized-large.gif", fluid-grow)
+          small
+            i El Trapiche, Peñaflor.  Representación río Petorca  en 1879.
+        .col-6
+          .row
+            .col-12.d-flex.justify-content-center.align-content-center
+              .citation
+                h2 "Hierro Viejo es un proyecto de innovación cultural cinematográfica"
+          .row
+            .col-12
+              .text-right
+                a(v-b-toggle href="#arguments" @click.prevent) Seguir leyendo
         .col-12.d-flex.justify-content-center.align-content-center.mb-4.border-bottom
-          .pad
-            p
-              b-img.pale(src="https://media.giphy.com/media/nDisn0QplYSujxtWIW/giphy-downsized-large.gif", fluid)
-      section
+          img.fluid(svg-inline, src='@/assets/svg/flourisch.svg', alt='Ornament', width='100px')
+      b-collapse#arguments
         .row
           .col-12.col-lg-6
             .pad.text-center
@@ -27,8 +40,11 @@
           .col-12.col-lg-6.border-left
             .pad.text-center
               span.headline.rye.border-top.border-bottom Cultura
-            .pad.mt-3.mb-3
-              p La historia de esta película ocurre en el contexto de Chile de fines del siglo XIX, en la región de Valparaíso.
+            .row.mt-3.mb-3
+              .col-8
+                p La historia de esta película ocurre en el contexto de Chile de fines del siglo XIX, en la región de Valparaíso.
+              .col-4.text-center
+                img.fluid.bw(svg-inline, src='@/assets/svg/kultrun.svg', alt='Ornament', width='100px')
 </template>
 
 <script>
@@ -64,6 +80,12 @@ export default {
 .pale{
   filter:sepia(1);
   opacity: .8;
+  &:hover{
+    filter: sepia(0);
+  }
+}
+.bw{
+  filter: grayscale(.8);
 }
 blockquote {
   border:none;
@@ -71,17 +93,45 @@ blockquote {
   quotes: "\201C""\201D""\2018""\2019";
 }
 blockquote h2 {
-  font-size:1.5em;
+  font-size:2.5em;
+  font-weight: 100;
 }
 blockquote h2:before {
   content: open-quote;
-  font-weight: bold;
   font-size:1.8em;
 }
 blockquote h2:after {
   content: close-quote;
-  font-weight: bold;
   font-size:1.8em;
+}
+.citation{
+  max-width: 400px;
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  line-height: 44px;
+  /*font-style: italic;*/
+  text-align: center;
+  font-weight: 400;
+  display: block;
+  margin: 50px 0 40px 0;
+  font-feature-settings: "liga", "dlig";
+
+}
+.citation:before{
+    border-top: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 16px;
+    display: block;
+    margin: 0 auto;
+}
+.citation:after{
+    border-bottom: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 16px;
+    display: block;
+    margin: 0 auto;
 }
 .seal{
   opacity: .8;
