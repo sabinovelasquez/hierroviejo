@@ -104,8 +104,10 @@ a{
   text-transform: uppercase;
 }
 .bg{
-  background-size: inherit;
-  background-position: top center;
+  background: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
 }
 .border-right, .border-top, .border-bottom, .border-left{
   border-color: black!important;

@@ -1,6 +1,8 @@
 <template lang="pug">
   header.header-box.double
     .container
+      .editorial
+        p.pad.rye Chile, Diciembre de 1881
       .row
         .col-12.text-center
           b-img.seal.mx-auto.d-block(alt="Cousiño", fluid, :src="require('@/assets/images/seal.png')")
@@ -15,22 +17,24 @@
       .row
         .col-12.mb-5.mt-2.justify-content-center.align-content-center
           blockquote.text-center
-            i Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+            i "Cabalga a Petorca, manda un telegrama a Valparaíso. Notifica a Francia que ha muerto mi hermano Matías...."
+            p.blockquote-footer Matuncho Cousiño
+
       .row
-        .col-6.align-content-center
+        .col-12.col-md-6.align-content-center
           img.border-dark.border.img-fluid(src="@/assets/images/valpo1880.jpg")
           small
             i Valparaíso (1880).
-        .col-6
+        .col-12.col-md-6
           .row
-            .col-12.d-flex.justify-content-center.align-content-center
+            .col-12.justify-content-center.align-content-center
               .citation
                 h2 "Hierro Viejo es un proyecto de innovación cultural cinematográfica"
           .row
             .col-12
               .text-right
                 a(v-b-toggle href="#arguments" @click.prevent) Seguir leyendo
-        .col-12.d-flex.justify-content-center.align-content-center.mb-4.border-bottom
+        .col-12.text-center.mb-4.border-top
           img.fluid(svg-inline, src='@/assets/svg/flourisch.svg', alt='Ornament', width='100px')
       b-collapse#arguments
         .row
@@ -38,18 +42,16 @@
             .pad.text-center
               span.headline.rye.border-top.border-bottom Innovación
             .pad.mt-3.mb-3
-              p Si hoy miramos la historia del cine, nos daremos cuenta que hitos importantes han facilitado la forma de narrar una historia. El proceso de Schüfftan, el uso del Mate, del Chroma, y recientemente; sets con pantallas LED de alta resolución.
-              p Si bien el concepto no es algo nuevo, lo ingenioso son los fondos generados en tiempo real a través del popular motor para videojuegos: Unreal Engine.
-              p Visualmente, esto permite que elementos del set sean afectados por la luz reflejada del entorno, ahorrando tiempo de postproducción y entregando nuevas herramientas para enfocar el trabajo creativo hacia la idea principal de la pieza.
-              p Logísticamente, resulve temas
+              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel tincidunt risus. Fusce lacinia id eros nec efficitur. Vivamus eu hendrerit tellus. Aliquam dictum metus elit, vel laoreet purus ultricies vel. Proin ultricies sapien tellus, nec molestie velit condimentum sed. Sed ac tortor sed lorem pellentesque euismod ut ac est. Maecenas consequat elementum nunc non eleifend. Ut tristique id massa id porta. Fusce condimentum sem neque, eget faucibus augue condimentum sed. Sed consectetur orci non augue luctus accumsan eget vitae nisi. Integer fringilla ligula ac urna vestibulum, sit amet pretium eros posuere.
+              p Sed scelerisque sapien in augue egestas pretium. Aliquam ultricies ante ac dignissim consequat. Nunc vehicula ut justo vel ullamcorper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec at lorem a libero elementum tristique. Aenean tempor dolor nec sem volutpat varius. Duis blandit eleifend nisl, nec sagittis augue convallis venenatis. Vivamus nec augue a ex gravida rutrum at eget lacus. Curabitur blandit eros non dignissim lobortis.
           .col-12.col-lg-6.border-left
             .pad.text-center
               span.headline.rye.border-top.border-bottom Cultura
             .row.mt-3.mb-3
-              .pad.col-8
-                p La historia de esta película ocurre en el contexto de Chile de fines del siglo XIX, en la región de Valparaíso.
-              .col-4.text-center
-                img.fluid.bw(svg-inline, src='@/assets/svg/kultrun.svg', alt='Ornament', width='100px')
+              .pad.col-12.text-justify
+                img.float-right.img-responsive.bw.ml-3.mb-3(svg-inline, src='@/assets/svg/kultrun.svg', alt='Ornament', width='100px')
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel tincidunt risus. Fusce lacinia id eros nec efficitur. Vivamus eu hendrerit tellus. Aliquam dictum metus elit, vel laoreet purus ultricies vel. Proin ultricies sapien tellus, nec molestie velit condimentum sed. Sed ac tortor sed lorem pellentesque euismod ut ac est. Maecenas consequat elementum nunc non eleifend. Ut tristique id massa id porta. Fusce condimentum sem neque, eget faucibus augue condimentum sed. Sed consectetur orci non augue luctus accumsan eget vitae nisi. Integer fringilla ligula ac urna vestibulum, sit amet pretium eros posuere.
+                p Sed scelerisque sapien in augue egestas pretium. Aliquam ultricies ante ac dignissim consequat. Nunc vehicula ut justo vel ullamcorper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec at lorem a libero elementum tristique. Aenean tempor dolor nec sem volutpat varius. Duis blandit eleifend nisl, nec sagittis augue convallis venenatis. Vivamus nec augue a ex gravida rutrum at eget lacus. Curabitur blandit eros non dignissim lobortis.
 </template>
 
 <script>
@@ -63,6 +65,15 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+.editorial{
+  opacity: 0.7;
+  position: absolute;
+  margin: 50px 0;
+  p{
+    padding: 20px;
+    border: double;
+  }
+}
 .header-box{
   width: 100%;
   min-height: 100vh;

@@ -6,7 +6,7 @@
           .n-img
             img.border-dark.border.img-fluid(src='@/assets/images/falcato.jpg' alt="Synopsis Image")
           small
-            i Hechos biográficos de Pancho Falcato, del bravo maloqueador Marcos Saldías i de muchos otros presos célebres. Chile (1877).
+            i Hechos biográficos de Pancho Falcato, del bravo maloqueador Marcos Saldías i de muchos otros presos célebres (1877).
         .col-12.col-md-9
           .row.text-justify
             .col-12.col-md-7.border-left.border-right
@@ -23,8 +23,11 @@
                 i Delincuentes, bandoleros y montoneros : violencia social en el espacio rural chileno (1850-1870).
               .pad.mt-3
                 p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel tincidunt risus. Fusce lacinia id eros nec efficitur. Vivamus eu hendrerit tellus. Aliquam dictum metus elit, vel laoreet purus ultricies vel. Proin ultricies sapien tellus, nec molestie velit condimentum sed. Sed ac tortor sed lorem pellentesque euismod ut ac est.
-        .col-12.d-flex.justify-content-center.align-content-center.mb-4.border-bottom
-          img.fluid(svg-inline, src='@/assets/svg/flourisch.svg', alt='Ornament', width='100px')
+        .col-12.text-center.mb-4.border-bottom
+          img.img-fluid(svg-inline, src='@/assets/svg/flourisch.svg', alt='Ornament', width='100px')
+      .row
+        .col-12
+          img.img-fluid(src='@/assets/images/francia1878.jpg', alt='Ornament')
 </template>
 
 <script>
