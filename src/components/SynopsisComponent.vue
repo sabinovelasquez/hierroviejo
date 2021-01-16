@@ -1,16 +1,30 @@
 <template lang="pug">
-  section.synopsis-box(style="border: 2px solid purple;")
-    .container(style="border: 2px solid red;")
+  section.double.synopsis-box.mt-4
+    .container
       .row
-        .col-12.d-flex.justify-content-center.justify-content-lg-start
-          h1.mb-5.mt-5 Sinopsis
-      .row(style="border: 2px solid red;")
-        .col-12.col-lg-6.d-flex.align-items-center.justify-content-center(style="border: 2px solid blue;")
-          p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras iaculis tortor eu congue commodo. Maecenas ac elementum mauris, finibus venenatis eros. Integer dapibus quam gravida sapien lobortis, in semper felis tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse semper luctus nisl, at condimentum tellus accumsan eu. Nunc posuere pretium justo, non laoreet mauris rhoncus in. Vestibulum id pretium ipsum.
-        .col-12.col-lg-6.d-flex.flex-column.justify-content-center.align-items-center
-          b-img.mb-3.mt-3(fluid, src='https://picsum.photos/550/300' alt="Synopsis Image")
-          .col-12
-            span Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        .col-12.col-md-3.align-content-center.text-center.mb-3
+          .n-img
+            img.border-dark.border.img-fluid(src='@/assets/images/falcato.jpg' alt="Synopsis Image")
+          small
+            i Hechos biográficos de Pancho Falcato, del bravo maloqueador Marcos Saldías i de muchos otros presos célebres. Chile (1877).
+        .col-12.col-md-9
+          .row.text-justify
+            .col-12.col-md-7.border-left.border-right
+              h2.text-center.headline.mb-4
+                span.rye.border-top.border-bottom Sinopsis
+                //- span inopsis
+              .pad
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel tincidunt risus. Fusce lacinia id eros nec efficitur. Vivamus eu hendrerit tellus. Aliquam dictum metus elit, vel laoreet purus ultricies vel. Proin ultricies sapien tellus, nec molestie velit condimentum sed. Sed ac tortor sed lorem pellentesque euismod ut ac est. Maecenas consequat elementum nunc non eleifend. Ut tristique id massa id porta. Fusce condimentum sem neque, eget faucibus augue condimentum sed. Sed consectetur orci non augue luctus accumsan eget vitae nisi. Integer fringilla ligula ac urna vestibulum, sit amet pretium eros posuere.
+                P Sed scelerisque sapien in augue egestas pretium. Aliquam ultricies ante ac dignissim consequat. Nunc vehicula ut justo vel ullamcorper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec at lorem a libero elementum tristique. Aenean tempor dolor nec sem volutpat varius. Duis blandit eleifend nisl, nec sagittis augue convallis venenatis. Vivamus nec augue a ex gravida rutrum at eget lacus. Curabitur blandit eros non dignissim lobortis.
+            .col-12.col-md-5
+              .n-img.border-dark.border
+                img.img-fluid(src='@/assets/images/brural.jpg' alt="Synopsis Image")
+              small
+                i Delincuentes, bandoleros y montoneros : violencia social en el espacio rural chileno (1850-1870).
+              .pad.mt-3
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel tincidunt risus. Fusce lacinia id eros nec efficitur. Vivamus eu hendrerit tellus. Aliquam dictum metus elit, vel laoreet purus ultricies vel. Proin ultricies sapien tellus, nec molestie velit condimentum sed. Sed ac tortor sed lorem pellentesque euismod ut ac est.
+        .col-12.d-flex.justify-content-center.align-content-center.mb-4.border-bottom
+          img.fluid(svg-inline, src='@/assets/svg/flourisch.svg', alt='Ornament', width='100px')
 </template>
 
 <script>

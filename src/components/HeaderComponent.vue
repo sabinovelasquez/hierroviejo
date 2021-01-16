@@ -1,21 +1,26 @@
 <template lang="pug">
-  header.header-box
+  header.header-box.double
     .container
       .row
         .col-12.text-center
           b-img.seal.mx-auto.d-block(alt="Cousiño", fluid, :src="require('@/assets/images/seal.png')")
-        .col-12.d-flex.justify-content-center.align-content-center
-          h1.display-4.main-title.upper.playfair
-            span
-              img.main-logo(svg-inline, src='@/assets/svg/or_left.svg', alt='Ornament', width='30px')
-            span Hierro Viejo
-            span
-              img(svg-inline, src='@/assets/svg/or_right.svg', alt='Ornament', width='30px')
+        .col-12.justify-content-center.align-content-center
+          .main-title
+            h1.display-4.upper.playfair
+              span
+                img.main-logo(svg-inline, src='@/assets/svg/or_left.svg', alt='Ornament', width='40px')
+              span Hierro Viejo
+              span
+                img(svg-inline, src='@/assets/svg/or_right.svg', alt='Ornament', width='40px')
+      .row
+        .col-12.mb-5.mt-2.justify-content-center.align-content-center
+          blockquote.text-center
+            i Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
       .row
         .col-6.align-content-center
-          b-img.pale(src="https://media.giphy.com/media/nDisn0QplYSujxtWIW/giphy-downsized-large.gif", fluid-grow)
+          img.border-dark.border.img-fluid(src="@/assets/images/valpo1880.jpg")
           small
-            i El Trapiche, Peñaflor.  Representación río Petorca  en 1879.
+            i Valparaíso (1880).
         .col-6
           .row
             .col-12.d-flex.justify-content-center.align-content-center
@@ -41,7 +46,7 @@
             .pad.text-center
               span.headline.rye.border-top.border-bottom Cultura
             .row.mt-3.mb-3
-              .col-8
+              .pad.col-8
                 p La historia de esta película ocurre en el contexto de Chile de fines del siglo XIX, en la región de Valparaíso.
               .col-4.text-center
                 img.fluid.bw(svg-inline, src='@/assets/svg/kultrun.svg', alt='Ornament', width='100px')
@@ -66,23 +71,6 @@ export default {
 .headline{
   font-size: 2em;
   padding: 5px 20px;
-  &::before{
-    content: '\2619';
-    font-size: .8em;
-    margin-right: 6px;
-  }
-  &::after{
-    content: '\2767';
-    font-size: .8em;
-    margin-left: 6px;
-  }
-}
-.pale{
-  filter:sepia(1);
-  opacity: .8;
-  &:hover{
-    filter: sepia(0);
-  }
 }
 .bw{
   filter: grayscale(.8);
