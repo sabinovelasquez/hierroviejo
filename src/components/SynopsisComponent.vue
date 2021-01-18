@@ -1,5 +1,5 @@
 <template lang="pug">
-  section.double.synopsis-box.mt-4
+  section.double.synopsis-box.mt-5.mb-5
     .container
       .row
         .col-12.col-md-3.align-content-center.text-center.mb-3

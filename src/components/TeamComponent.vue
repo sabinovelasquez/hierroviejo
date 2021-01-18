@@ -1,28 +1,71 @@
 <template lang="pug">
-  section(style="border: 2px solid purple;")
-    .container-fluid.d-flex.flex-column.align-items-center(style="border: 2px solid red;")
-      .container(style="border: 2px solid black;")
-        .row(style="border: 2px solid fucsia;")
-          .col-12.d-flex.justify-content-center
-            h1.mb-5.mt-5 Equipo
-      .row
-        div(style="border: 2px solid green;").d-flex.justify-content-center.flex-column.flex-lg-row
-          b-card.mb-2.mr-3.text-center.hv-border-radius-card(title='Sabino Velazquez' img-src='https://picsum.photos/150/150/?image=25' img-class='rounded-circle' img-alt='Image' img-top='' tag='article' style='max-width: 20rem;')
-            b-card-text
-              | Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
-            b-button(href='#' variant='primary') Go somewhere
-          b-card.mb-2.mr-3.text-center.hv-border-radius-card(title='Alex' img-src='https://picsum.photos/150/150/?image=25' img-alt='Image' img-top='' tag='article' style='max-width: 20rem;')
-            b-card-text
-              | Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
-            b-button(href='#' variant='primary') Go somewhere
-          b-card.mb-2.mr-3.text-center.hv-border-radius-card(title='Renato Gonzalez' img-src='https://picsum.photos/150/150/?image=25' img-alt='Image' img-top='' tag='article' style='max-width: 20rem;')
-            b-card-text.text-center
-              | Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
-            b-button(href='#' variant='primary') Go somewhere
-          b-card.mb-2.mr-3.text-center.hv-border-radius-card(title='Card Title' img-src='https://picsum.photos/150/150/?image=25' img-alt='Image' img-top='' tag='article' style='max-width: 20rem;')
-            b-card-text.text-center
-              | Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
-            b-button(href='#' variant='primary') Go somewhere
+  section.mb-5
+    b-container(fluid)
+      b-container
+        b-row(no-gutters)
+          h1.mb-5.mt-5.mx-auto Equipo
+      b-container-fluid
+        b-row(no-gutters).d-flex.justify-content-around.align-items-center
+          b-col(cols="12", lg="2")
+            b-card.mx-2.py-3
+              b-row(no-gutters)
+                b-col(sm="4", lg="12")
+                  div.d-flex.justify-content-center
+                    b-avatar.mb-4.mr-2.mr-lg-0(align-self="center", variant='info', src='https://placekitten.com/300/300', size="7rem")
+                b-col(sm="8", lg="12")
+                  div.text-center
+                    b-card-title.text-center.text-md-left.text-lg-center Lorem 1
+                    b-card-text.text-center.text-md-left.text-lg-center
+                      | Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
+                    b-button(href='#' variant='primary') Go somewhere
+          b-col(cols="12", lg="2")
+            b-card.mx-2.py-3
+              b-row(no-gutters)
+                b-col(sm="4", lg="12")
+                  div.d-flex.justify-content-center
+                    b-avatar.mb-4.mr-2.mr-lg-0(align-self="center", variant='info', src='https://placekitten.com/300/300', size="7rem")
+                b-col(sm="8", lg="12")
+                  div.text-center
+                    b-card-title.text-center.text-md-left.text-lg-center Lorem 2
+                    b-card-text.text-center.text-md-left.text-lg-center
+                      | Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
+                    b-button(href='#' variant='primary') Go somewhere
+          b-col(cols="12", lg="2")
+            b-card.mx-2.py-3
+              b-row(no-gutters)
+                b-col(sm="4", lg="12")
+                  div.d-flex.justify-content-center
+                    b-avatar.mb-4.mr-2.mr-lg-0(align-self="center", variant='info', src='https://placekitten.com/300/300', size="7rem")
+                b-col(sm="8", lg="12")
+                  div.text-center
+                    b-card-title.text-center.text-md-left.text-lg-center Lorem 3
+                    b-card-text.text-center.text-md-left.text-lg-center
+                      | Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
+                    b-button(href='#' variant='primary') Go somewhere
+          b-col(cols="12", lg="2")
+            b-card.mx-2.py-3
+              b-row(no-gutters)
+                b-col(sm="4", lg="12")
+                  div.d-flex.justify-content-center
+                    b-avatar.mb-4.mr-2.mr-lg-0(align-self="center", variant='info', src='https://placekitten.com/300/300', size="7rem")
+                b-col(sm="8", lg="12")
+                  div.text-center
+                    b-card-title.text-center.text-md-left.text-lg-center Lorem 4
+                    b-card-text.text-center.text-md-left.text-lg-center
+                      | Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
+                    b-button(href='#' variant='primary') Go somewhere
+          b-col(cols="12", lg="2")
+            b-card.mx-2.py-3
+              b-row(no-gutters)
+                b-col(sm="4", lg="12")
+                  div.d-flex.justify-content-center
+                    b-avatar.mb-4.mr-2.mr-lg-0(align-self="center", variant='info', src='https://placekitten.com/300/300', size="7rem")
+                b-col(sm="8", lg="12")
+                  div.text-center
+                    b-card-title.text-center.text-md-left.text-lg-center Lorem 5
+                    b-card-text.text-center.text-md-left.text-lg-center
+                      | Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
+                    b-button(href='#' variant='primary') Go somewhere
 </template>
 
 <script>
