@@ -8,7 +8,7 @@
           b-img.seal.mx-auto.d-block(alt="Cousiño", fluid, :src="require('@/assets/images/seal.png')")
         .col-12.justify-content-center.align-content-center
           .main-title
-            h1.display-4.upper.playfair
+            h1.title.upper.playfair
               span
                 img.main-logo(svg-inline, src='@/assets/svg/or_left.svg', alt='Ornament', width='40px')
               span Hierro Viejo
@@ -26,11 +26,13 @@
           small
             i Valparaíso (1880).
         .col-12.col-md-6
-          .row
-            .col-12.justify-content-center.align-content-center
+          .row.mt-5
+            .col-12.justify-content-center.align-content-center.text-center
+              img(svg-inline, src='@/assets/svg/divider.svg', alt='Ornament')
               .citation
                 h2 "Hierro Viejo es un proyecto de innovación cultural cinematográfica"
-          .row
+              img(svg-inline, src='@/assets/svg/divider.svg', alt='Ornament')
+          .row.mb-5
             .col-12
               .text-right
                 a(v-b-toggle href="#arguments" @click.prevent) Seguir leyendo
@@ -65,6 +67,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+.title{
+  font-size: 1.2em;
+  @media(max-width: 768px) {
+    font-size: 1em;
+  }
+}
 .editorial{
   opacity: 0.7;
   position: absolute;
@@ -72,6 +80,13 @@ export default {
   p{
     padding: 20px;
     border: double;
+    @media(max-width: 768px) {
+      padding: 8px;
+    }
+  }
+  @media(max-width: 768px) {
+    font-size: 10px;
+    margin: 10px 0;
   }
 }
 .header-box{
@@ -103,35 +118,7 @@ blockquote h2:after {
   content: close-quote;
   font-size:1.8em;
 }
-.citation{
-  max-width: 400px;
-  font-family: 'Playfair Display', serif;
-  font-size: 36px;
-  line-height: 44px;
-  /*font-style: italic;*/
-  text-align: center;
-  font-weight: 400;
-  display: block;
-  margin: 50px 0 40px 0;
-  font-feature-settings: "liga", "dlig";
 
-}
-.citation:before{
-    border-top: 1px solid #2f2f2f;
-    content: '';
-    width: 100px;
-    height: 16px;
-    display: block;
-    margin: 0 auto;
-}
-.citation:after{
-    border-bottom: 1px solid #2f2f2f;
-    content: '';
-    width: 100px;
-    height: 16px;
-    display: block;
-    margin: 0 auto;
-}
 .seal{
   opacity: .8;
   padding-top: 10px;
