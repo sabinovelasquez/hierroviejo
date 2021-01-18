@@ -1,5 +1,5 @@
 <template lang="pug">
-  section.double.synopsis-box.mt-5.mb-5
+  section.double.mt-5.mb-5
     .container
       .row
         .col-12.col-md-3.align-content-center.text-center.mb-3
@@ -23,11 +23,14 @@
                 i Delincuentes, bandoleros y montoneros : violencia social en el espacio rural chileno (1850-1870).
               .pad.mt-3
                 p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel tincidunt risus. Fusce lacinia id eros nec efficitur. Vivamus eu hendrerit tellus. Aliquam dictum metus elit, vel laoreet purus ultricies vel. Proin ultricies sapien tellus, nec molestie velit condimentum sed. Sed ac tortor sed lorem pellentesque euismod ut ac est.
-        .col-12.text-center.mb-4.border-bottom
-          img.img-fluid(svg-inline, src='@/assets/svg/flourisch.svg', alt='Ornament', width='100px')
-      .row
+        .col-12.text-center.mb-4
+          img.img-fluid(svg-inline, src='@/assets/svg/tall.svg', alt='Ornament', width='100px')
+      .row.mb-5
         .col-12
-          img.img-fluid(src='@/assets/images/francia1878.jpg', alt='Ornament')
+          .n-img.border-dark.border
+            img.img-fluid(src='@/assets/images/francia1878.jpg', alt='Ornament')
+          small
+            i La Exposición Universal de París de 1878.
 </template>
 
 <script>
@@ -41,9 +44,4 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-.synopsis-box{
-  width: 100%;
-  min-height: 100vh;
-  padding-top: 10px;
-  }
 </style>

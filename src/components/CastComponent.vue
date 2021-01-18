@@ -1,10 +1,9 @@
 <template lang="pug">
   section.cast-box
-    b-container(fluid)
-      b-container
-        b-row(no-gutters)
-          h1.mb-5.mt-5.mx-auto Reparto
-      b-container-fluid
+    .container
+      b-row(no-gutters)
+        h1.mb-5.mt-5.mx-auto Reparto
+      .container
         b-row(no-gutters).d-flex.justify-content-around.align-items-center
           b-col(cols="12", lg="2")
             b-card.mx-2.py-3
