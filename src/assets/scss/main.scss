@@ -69,6 +69,17 @@ $navbar-dark-toggler-border-color: hsl(33, 32%, 17%);
 .double{
   border-bottom: double;
 }
+.citation{
+  max-width: 380px;
+  margin: auto;
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  line-height: 44px;
+  font-style: italic;
+  text-align: center;
+  font-weight: 400;
+  display: block;
+}
 .headline{
   &::before{
     content: '\2619';
@@ -107,7 +118,21 @@ a{
   background: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top right;
+  background-position: center;
+}
+.blood{
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 350px;
+  opacity: .5;
+  img{
+    width: 100%;
+  }
+  @media(max-width: 768px) {
+    opacity: .3;
+    width: 250px;
+  }
 }
 .border-right, .border-top, .border-bottom, .border-left{
   border-color: black!important;

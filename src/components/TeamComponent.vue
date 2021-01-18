@@ -9,39 +9,36 @@
             span.rye.border-top.border-bottom Equipo
       .row.text-center
         .col-6.col-md-3
-          .n-img.border-dark.border
-            img.img-fluid(svg-inline, src='@/assets/team/sabino.jpg', alt='Sabino Velásquez')
           .team-title
             h3.ultra Sabino Velásquez
             h4
               i Producción - Guión - Dirección
+          .n-img
+            img.mx-auto(svg-inline, src='@/assets/team/sabino.jpg', alt='Sabino Velásquez')
           .team-content
             p Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
         .col-6.col-md-3
-          .n-img.border-dark.border
-            img.img-fluid(svg-inline, src='@/assets/team/sabino.jpg', alt='Sabino Velásquez')
           .team-title
-            h3.ultra Sabino Velásquez
+            h3.ultra Javiera Parra
             h4
-              i Producción - Guión - Dirección
+              i Asistente de Dirección
+          .n-img
           .team-content
             p Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
         .col-6.col-md-3
-          .n-img.border-dark.border
-            img.img-fluid(svg-inline, src='@/assets/team/sabino.jpg', alt='Sabino Velásquez')
           .team-title
-            h3.ultra Sabino Velásquez
+            h3.ultra Alex Plaza
             h4
-              i Producción - Guión - Dirección
+              i Asistente de Producción
+          .n-img
           .team-content
             p Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
         .col-6.col-md-3
-          .n-img.border-dark.border
-            img.img-fluid(svg-inline, src='@/assets/team/sabino.jpg', alt='Sabino Velásquez')
           .team-title
-            h3.ultra Sabino Velásquez
+            h3.ultra Renato González
             h4
-              i Producción - Guión - Dirección
+              i Producción Técnica
+          .n-img
           .team-content
             p Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
         .row(no-gutters).d-flex.justify-content-around.align-items-center
@@ -126,5 +123,15 @@ export default {
     font-size: .9em;
   }
   margin: 8px 0;
+}
+.n-img{
+  img{
+    width: 80%;
+    margin: 10%;
+    border: double;
+  };
+}
+.team-content{
+  font-size: .9em;
 }
 </style>

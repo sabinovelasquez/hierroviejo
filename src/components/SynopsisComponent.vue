@@ -10,9 +10,14 @@
         .col-12.col-md-9
           .row.text-justify
             .col-12.col-md-7.border-left.border-right
-              h2.text-center.headline.mb-4
-                span.rye.border-top.border-bottom Sinopsis
-                //- span inopsis
+              .text-center.mb-3
+                h2.headline.mb-4
+                  span.rye.border-top.border-bottom Sinopsis
+                  //- span inopsis
+                img(svg-inline, src='@/assets/svg/divider.svg', alt='Ornament')
+                .citation
+                  h2 "A las herraduras hay que reemplazarlas, y botar el Hierro Viejo."
+                img(svg-inline, src='@/assets/svg/divider.svg', alt='Ornament')
               .pad
                 p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel tincidunt risus. Fusce lacinia id eros nec efficitur. Vivamus eu hendrerit tellus. Aliquam dictum metus elit, vel laoreet purus ultricies vel. Proin ultricies sapien tellus, nec molestie velit condimentum sed. Sed ac tortor sed lorem pellentesque euismod ut ac est. Maecenas consequat elementum nunc non eleifend. Ut tristique id massa id porta. Fusce condimentum sem neque, eget faucibus augue condimentum sed. Sed consectetur orci non augue luctus accumsan eget vitae nisi. Integer fringilla ligula ac urna vestibulum, sit amet pretium eros posuere.
                 P Sed scelerisque sapien in augue egestas pretium. Aliquam ultricies ante ac dignissim consequat. Nunc vehicula ut justo vel ullamcorper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec at lorem a libero elementum tristique. Aenean tempor dolor nec sem volutpat varius. Duis blandit eleifend nisl, nec sagittis augue convallis venenatis. Vivamus nec augue a ex gravida rutrum at eget lacus. Curabitur blandit eros non dignissim lobortis.
