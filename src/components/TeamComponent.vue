@@ -47,7 +47,7 @@
               b-row(no-gutters)
                 b-col(sm="4", lg="12")
                   div.d-flex.justify-content-center
-                    b-avatar.mb-4.mr-2.mr-lg-0(align-self="center", variant='info', src='@/assets/team/sabino.jpg', size="7rem")
+                    b-avatar.mb-4.mr-2.mr-lg-0(align-self="center", variant='info', src='https://placekitten.com/300/300', size="7rem")
                 b-col(sm="8", lg="12")
                   div.text-center
                     b-card-title.text-center.text-md-left.text-lg-center Lorem 1
