@@ -1,12 +1,4 @@
-$body-bg: hsl(33, 70%, 88%);
-$body-color: hsl(33, 38%, 6%);
-$primary: hsl(33, 70%, 88%);
-$navbar-dark-brand-color: hsl(33, 32%, 17%);
-$navbar-dark-color: hsl(33, 32%, 17%);
-$navbar-dark-hover-color:  hsl(33, 12%, 17%);
-$navbar-dark-active-color:        hsl(33, 82%, 17%);
-$navbar-dark-disabled-color:        hsl(33, 82%, 67%);;
-$navbar-dark-toggler-border-color: hsl(33, 32%, 17%);
+@import "settings/our-vars.scss";
 
 @import "node_modules/bootstrap/scss/functions";
 @import "node_modules/bootstrap/scss/variables";
@@ -116,13 +108,6 @@ a{
 //      OUR STYLES
 // ===================
 
-// SETTINGS
-@import "settings/our-vars.scss";
-
-// BASE
-@import "base/fonts.scss";
-
-// OUR STYLES
 @import "components/navbar.scss";
 @import "components/title.scss";
 @import "components/culture-innovation.scss";
