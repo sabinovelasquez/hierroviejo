@@ -6,6 +6,7 @@
     HeaderComponent
     SynopsisComponent
     TeamComponent
+    RefComponent
     //- CastComponent
     //- FooterComponent
 </template>
@@ -15,6 +16,7 @@ import NavComponent from './components/NavComponent'
 import HeaderComponent from './components/HeaderComponent.vue'
 import SynopsisComponent from './components/SynopsisComponent.vue'
 import TeamComponent from './components/TeamComponent.vue'
+import RefComponent from './components/RefComponent.vue'
 // import CastComponent from './components/CastComponent.vue'
 // import FooterComponent from './components/FooterComponent.vue'
 
@@ -24,7 +26,8 @@ export default {
     NavComponent,
     HeaderComponent,
     SynopsisComponent,
-    TeamComponent
+    TeamComponent,
+    RefComponent
     // CastComponent,
     // FooterComponent
   }

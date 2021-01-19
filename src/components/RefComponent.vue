@@ -1,0 +1,79 @@
+<template lang="pug">
+  section.double.mt-5.mb-5
+    .container
+      .row
+        .col-12
+          .text-center.mb-3
+            h2.headline.mb-4
+              span.rye.border-top.border-bottom Referencias
+      .row
+        .col-12.col-md-4.mb-3
+          .pad.text-justify
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel tincidunt risus. Fusce lacinia id eros nec efficitur. Vivamus eu hendrerit tellus. Aliquam dictum metus elit, vel laoreet purus ultricies vel. Proin ultricies sapien tellus, nec molestie velit condimentum sed. Sed ac tortor sed lorem pellentesque euismod ut ac est.
+          .text-center
+            .n-img
+              img.border-dark.border.img-fluid.pale(src='https://media.giphy.com/media/Whxnde2T0Soku8hnBi/giphy.gif' alt="Gone with the Wind (1939)")
+              small
+                i Gone with the Wind (1939), Victor Fleming.
+          .pad.text-justify.mt-4
+            P Sed scelerisque sapien in augue egestas pretium. Aliquam ultricies ante ac dignissim consequat. Nunc vehicula ut justo vel ullamcorper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec at lorem a libero elementum tristique. Aenean tempor dolor nec sem volutpat varius. Duis blandit eleifend nisl, nec sagittis augue convallis venenatis. Vivamus nec augue a ex gravida rutrum at eget lacus. Curabitur blandit eros non dignissim lobortis.
+          .n-img
+            img.border-dark.border.img-fluid.pale(src='https://media.giphy.com/media/FXuXfUgNEDbqr9WNcW/giphy.gif' alt="Viva Zapata! (1952)")
+            small
+              i Viva Zapata! (1952), Elia Kazan.
+        .col-12.col-md-4
+          .n-img
+            img.border-dark.border.img-fluid.pale(src='https://media.giphy.com/media/KTKlZLRKyLBehnP49e/giphy.gif' alt="Stagecoach (1939)")
+            small
+              i Stagecoach (1939), John Ford.
+          .pad.mt-4
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel tincidunt risus. Fusce lacinia id eros nec efficitur. Vivamus eu hendrerit tellus. Aliquam dictum metus elit, vel laoreet purus ultricies vel. Proin ultricies sapien tellus, nec molestie velit condimentum sed. Sed ac tortor sed lorem pellentesque euismod ut ac est. Maecenas consequat elementum nunc non eleifend. Ut tristique id massa id porta. Fusce condimentum sem neque, eget faucibus augue condimentum sed. Sed consectetur orci non augue luctus accumsan eget vitae nisi. Integer fringilla ligula ac urna vestibulum, sit amet pretium eros posuere.
+          .n-img
+            img.border-dark.border.img-fluid.pale(src='https://media.giphy.com/media/SedlAsef82GBJAuQ7I/giphy.gif' alt="The Ox-Bow Incident (1943)")
+            small
+              i The Ox-Bow Incident (1943), William A. Wellman.
+        .col-12.col-md-4
+          .pad
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel tincidunt risus. Fusce lacinia id eros nec efficitur. Vivamus eu hendrerit tellus. Aliquam dictum metus elit, vel laoreet purus ultricies vel. Proin ultricies sapien tellus, nec molestie velit condimentum sed. Sed ac tortor sed lorem pellentesque euismod ut ac est.
+          .n-img.border-dark.border
+            img.img-fluid.pale(src='https://media.giphy.com/media/vHe06QopnQSAeGV7HM/giphy.gif' alt="The Wild Bunch (1969)")
+          small
+            i The Wild Bunch (1969), Sam Peckinpah.
+          .pad.mt-4
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel tincidunt risus. Fusce lacinia id eros nec efficitur. Vivamus eu hendrerit tellus. Aliquam dictum metus elit, vel laoreet purus ultricies vel. Proin ultricies sapien tellus, nec molestie velit condimentum sed. Sed ac tortor sed lorem pellentesque euismod ut ac est. Maecenas consequat elementum nunc non eleifend. Ut tristique id massa id porta. Fusce condimentum sem neque, eget faucibus augue condimentum sed. Sed consectetur orci non augue luctus accumsan eget vitae nisi. Integer fringilla ligula ac urna vestibulum, sit amet pretium eros posuere.
+          .n-img.border-dark.border
+            img.img-fluid.pale(src='https://media.giphy.com/media/ujhxtYBtnEDSmlSX4F/giphy.gif' alt="High Noon (1952)")
+          small
+            i High Noon (1952), Fred Zinnemann.
+      .row
+        .col-12.col-md-4.mb-4
+          .pad
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel tincidunt risus. Fusce lacinia id eros nec efficitur. Vivamus eu hendrerit tellus. Aliquam dictum metus elit, vel laoreet purus ultricies vel. Proin ultricies sapien tellus, nec molestie velit condimentum sed. Sed ac tortor sed lorem pellentesque euismod ut ac est. Maecenas consequat elementum nunc non eleifend. Ut tristique id massa id porta. Fusce condimentum sem neque, eget faucibus augue condimentum sed. Sed consectetur orci non augue luctus accumsan eget vitae nisi. Integer fringilla ligula ac urna vestibulum, sit amet pretium eros posuere.
+        .col-12.col-md-8.mb-4
+          .n-img
+            img.border-dark.border.img-fluid.pale(src='https://media.giphy.com/media/i1lipmqzY6q36CFMIA/giphy.gif', alt='The Magnificent Seven (1960)')
+          small
+            i The Magnificent Seven (1960), John Sturges.
+</template>
+
+<script>
+export default {
+  name: 'RefComponent',
+  props: {
+    msg: String
+  }
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped lang="scss">
+.n-img{
+  img{
+    width:100%;
+    &:hover{
+      filter: none;
+      opacity: 1;
+    }
+  }
+}
+</style>

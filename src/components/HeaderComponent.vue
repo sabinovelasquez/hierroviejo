@@ -35,7 +35,7 @@
           .row.mb-5
             .col-12
               .text-right
-                a(v-b-toggle href="#arguments" @click.prevent) Seguir leyendo
+                a(v-b-toggle href="#arguments" @click.prevent) ¿Quieres saber más?
         .col-12.text-center.mb-4.border-top
           img.fluid(svg-inline, src='@/assets/svg/flourisch.svg', alt='Ornament', width='100px')
       b-collapse#arguments
