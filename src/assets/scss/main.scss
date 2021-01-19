@@ -29,21 +29,20 @@
 // @import "node_modules/bootstrap/scss/media";
 @import "node_modules/bootstrap/scss/list-group";
 @import "node_modules/bootstrap/scss/close";
-@import "node_modules/bootstrap/scss/toasts";
+// @import "node_modules/bootstrap/scss/toasts";
 // @import "node_modules/bootstrap/scss/modal";
 @import "node_modules/bootstrap/scss/tooltip";
 @import "node_modules/bootstrap/scss/popover";
-@import "node_modules/bootstrap/scss/carousel";
+// @import "node_modules/bootstrap/scss/carousel";
 @import "node_modules/bootstrap/scss/spinners";
 @import "node_modules/bootstrap/scss/utilities";
 @import "node_modules/bootstrap/scss/print";
 @import 'node_modules/bootstrap-vue/src/index.scss';
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;800&family=Roboto:ital,wght@0,400;1,500&family=Rye&family=Ultra&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
 
 // ===================
 //      OUR STYLES
 // ===================
+@import "settings/fonts-imports.scss";
 
 // WorkinProgress
 @import "components/mess.scss";
