@@ -6,7 +6,7 @@
       .row
         .col-12.justify-content-center.align-content-center
           .main-title
-            h1.title.upper.playfair
+            h1.hv-title
               span
                 img.main-logo(svg-inline, src='@/assets/svg/or_left.svg', alt='Ornament', width='40px')
               span Hierro Viejo
@@ -65,61 +65,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-.title{
-  font-size: 1.2em;
-  font-weight: 900;
-  @media(max-width: 768px) {
-    font-size: .8em;
-  }
-}
-.editorial{
-  opacity: 0.7;
-  position: absolute;
-  margin: 50px 0;
-  p{
-    padding: 20px;
-    border: double;
-    @media(max-width: 768px) {
-      padding: 8px;
-    }
-  }
-  @media(max-width: 768px) {
-    font-size: 10px;
-    margin: 10px 0;
-  }
-}
-.header-box{
-  width: 100%;
-  min-height: 100vh;
-  padding-top: 10px;
-}
-.headline{
-  font-size: 2em;
-  padding: 5px 20px;
-}
-.bw{
-  filter: grayscale(.8);
-}
-blockquote {
-  border:none;
-  margin-bottom:-30px;
-  quotes: "\201C""\201D""\2018""\2019";
-}
-blockquote h2 {
-  font-size:2.5em;
-  font-weight: 100;
-}
-blockquote h2:before {
-  content: open-quote;
-  font-size:1.8em;
-}
-blockquote h2:after {
-  content: close-quote;
-  font-size:1.8em;
-}
 
-.seal{
-  opacity: .8;
-  padding-top: 10px;
-}
 </style>

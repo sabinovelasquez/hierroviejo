@@ -1,5 +1,5 @@
 <template lang="pug">
-  main.bg(:style="{ backgroundImage: 'url(' + require('@/assets/images/bg.jpg') + ')' }")
+  main.bg.texture-background
     .blood
       img(svg-inline, src='@/assets/images/blood.png', alt='splatter')
     NavComponent
