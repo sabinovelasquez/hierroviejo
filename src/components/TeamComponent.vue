@@ -23,6 +23,7 @@
             h4
               i Asistente de Dirección
           .n-img
+            img.mx-auto(svg-inline, src='@/assets/team/javiera.jpg', alt='Javiera Parra')
           .team-content
             p Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
         .col-6.col-md-3
@@ -31,6 +32,7 @@
             h4
               i Asistente de Producción
           .n-img
+            img.mx-auto(svg-inline, src='@/assets/team/alex.jpg', alt='Alex Plaza')
           .team-content
             p Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
         .col-6.col-md-3
@@ -39,6 +41,7 @@
             h4
               i Producción Técnica
           .n-img
+            img.mx-auto(svg-inline, src='@/assets/team/renato.jpg', alt='Renato González')
           .team-content
             p Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
 </template>
@@ -64,9 +67,29 @@ export default {
   margin: 8px 0;
 }
 .n-img{
+display: flex;
+  &::after{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 15%;
+    content: "✸ ✸ ✸";
+    float: left;
+    font-size: 25px;
+    opacity: .6;
+  }
+  &::before{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 15%;
+    content: "✸ ✸ ✸";
+    float: right;
+    font-size: 25px;
+    opacity: .6;
+  }
   img{
-    width: 80%;
-    margin: 10%;
+    width: 70%;
     border: double;
   };
 }
