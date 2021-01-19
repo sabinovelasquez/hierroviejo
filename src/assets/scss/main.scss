@@ -1,12 +1,4 @@
-$body-bg: hsl(33, 70%, 88%);
-$body-color: hsl(33, 38%, 6%);
-$primary: hsl(33, 70%, 88%);
-$navbar-dark-brand-color: hsl(33, 32%, 17%);
-$navbar-dark-color: hsl(33, 32%, 17%);
-$navbar-dark-hover-color:  hsl(33, 12%, 17%);
-$navbar-dark-active-color:        hsl(33, 82%, 17%);
-$navbar-dark-disabled-color:        hsl(33, 82%, 67%);;
-$navbar-dark-toggler-border-color: hsl(33, 32%, 17%);
+@import "settings/our-vars.scss";
 
 @import "node_modules/bootstrap/scss/functions";
 @import "node_modules/bootstrap/scss/variables";
@@ -48,106 +40,15 @@ $navbar-dark-toggler-border-color: hsl(33, 32%, 17%);
 @import 'node_modules/bootstrap-vue/src/index.scss';
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;800&family=Roboto:ital,wght@0,400;1,500&family=Rye&family=Ultra&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
-*{
-  font-family: 'Playfair Display', serif;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
-}
-.rye{
-  font-family: 'Rye', cursive;
-}
-.ultra{
-  font-family: 'Ultra', serif;
-}
-.playfair{
-  font-family: 'Playfair Display', serif;
-  font-weight: 800;
-}
-.pale{
-  filter:sepia(1);
-  opacity: .8;
-}
-.double{
-  border-bottom: double;
-}
-.citation{
-  max-width: 380px;
-  margin: auto;
-  font-family: 'Playfair Display', serif;
-  font-size: 36px;
-  line-height: 44px;
-  font-style: italic;
-  text-align: center;
-  font-weight: 400;
-  display: block;
-}
-.headline{
-  &::before{
-    content: '\2619';
-    font-size: .8em;
-    margin-right: 6px;
-  }
-  &::after{
-    content: '\2767';
-    font-size: .8em;
-    margin-left: 6px;
-  }
-}
-.pad{
-  font-size: .9em;
-}
-a{
-  color:darken($body-color, 8);
-  &:hover{
-    color: black;
-  }
-}
-.main-title{
-  font-size: 2.5em;
-  text-shadow: 1px 1px 1px rgba(2, 2, 0, 0.3);
-  color: darken($body-color, 8);
-  border-bottom: 3px solid black;
-  padding-bottom: 10px;
-  padding-top: 8px;
-  width: 100%;
-  text-align: center;
-}
-.upper{
-  text-transform: uppercase;
-}
-.bg{
-  background: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.blood{
-  position: fixed;
-  right: 0;
-  top: 0;
-  width: 350px;
-  opacity: .5;
-  img{
-    width: 100%;
-  }
-  @media(max-width: 768px) {
-    opacity: .3;
-    width: 250px;
-  }
-}
-.border-right, .border-top, .border-bottom, .border-left{
-  border-color: black!important;
-}
+
 // ===================
 //      OUR STYLES
 // ===================
 
-// SETTINGS
-@import "settings/our-vars.scss";
+// WorkinProgress
+@import "components/mess.scss";
 
-// BASE
-@import "base/fonts.scss";
-
-// OUR STYLES
+// The rest
 @import "components/navbar.scss";
 @import "components/title.scss";
 @import "components/culture-innovation.scss";
