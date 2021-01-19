@@ -46,7 +46,7 @@
             p Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
         .col-6.col-md-3
           .team-title
-            h3.ultra Vacante
+            h3.ultra Se busca
             h4
               i Dirección de Fotografía
           .n-img
@@ -56,7 +56,7 @@
               span Aplicar
         .col-6.col-md-3
           .team-title
-            h3.ultra Vacante
+            h3.ultra Se busca
             h4
               i Dirección de Arte
           .n-img
