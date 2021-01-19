@@ -4,8 +4,6 @@
       .editorial
         p.pad.rye Chile, Diciembre de 1881
       .row
-        .col-12.text-center
-          b-img.seal.mx-auto.d-block(alt="Cousiño", fluid, :src="require('@/assets/images/seal.png')")
         .col-12.justify-content-center.align-content-center
           .main-title
             h1.title.upper.playfair
