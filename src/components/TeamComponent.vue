@@ -7,7 +7,7 @@
         .col-12
           h2.text-center.headline.mb-4
             span.rye.border-top.border-bottom Equipo
-      .row.text-center
+      .row.text-center.mb-5
         .col-6.col-md-3
           .team-title
             h3.ultra Sabino Velásquez
@@ -44,6 +44,26 @@
             img.mx-auto(svg-inline, src='@/assets/team/renato.jpg', alt='Renato González')
           .team-content
             p Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
+        .col-6.col-md-3
+          .team-title
+            h3.ultra Vacante
+            h4
+              i Dirección de Fotografía
+          .n-img
+            img.mx-auto(svg-inline, src='@/assets/team/wanted.jpg', alt='Wanted')
+          .team-content
+            button.btn.ribbon
+              span Aplicar
+        .col-6.col-md-3
+          .team-title
+            h3.ultra Vacante
+            h4
+              i Dirección de Arte
+          .n-img
+            img.mx-auto(svg-inline, src='@/assets/team/wanted.jpg', alt='Wanted')
+          .team-content
+            button.btn.ribbon
+              span Aplicar
 </template>
 
 <script>
@@ -73,9 +93,9 @@ display: flex;
     flex-wrap: wrap;
     align-content: center;
     width: 15%;
-    content: "✸ ✸ ✸";
+    content: "✸ ✸ ✸ ✸";
     float: left;
-    font-size: 25px;
+    font-size: 22px;
     opacity: .6;
   }
   &::before{
@@ -83,9 +103,9 @@ display: flex;
     flex-wrap: wrap;
     align-content: center;
     width: 15%;
-    content: "✸ ✸ ✸";
+    content: "✸ ✸ ✸ ✸";
     float: right;
-    font-size: 25px;
+    font-size: 22px;
     opacity: .6;
   }
   img{

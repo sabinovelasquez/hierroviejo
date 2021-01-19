@@ -69,8 +69,9 @@ export default {
 <style scoped lang="scss">
 .title{
   font-size: 1.2em;
+  font-weight: 900;
   @media(max-width: 768px) {
-    font-size: 1em;
+    font-size: .8em;
   }
 }
 .editorial{
