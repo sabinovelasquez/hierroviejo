@@ -45,6 +45,8 @@
         .col.pale
           img(src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Unreal_Engine_Logo.svg/1200px-Unreal_Engine_Logo.svg.png', height='70')
         .col.pale
+          img(src='@/assets/associates/mgf.png', height='50')
+        .col.pale
           img(src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfzd9s2At6oByoJIHt2z02Iy-Pon50nWGkTA&usqp=CAU', height='70')
         .col.pale
           img(src='https://acc-chile.com/wp-content/uploads/2019/06/logo_acc_footer.png', height='70')
