@@ -1,3 +1,23 @@
+.hv-header {
+  text-align: center;
+  font-size: 16px;
+  padding: 0 2em 0;
+}
+
 .hv-title {
+  margin-top: 30px;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 5em;
+  padding: 0.4em 0 0.28em;
+  letter-spacing: 8px;
+  line-height: 0.9;
+}
+
+.hv-title-lines {
+  box-shadow: 
+    0 -2px 0 0 hsl(29, 37%, 18%), 
+    0 -6px 0 0 hsl(39, 70%, 86%),
+    0 -12px 0 0 hsl(29, 37%, 18%);
   
+  border-bottom: 2px solid hsl(29, 37%, 18%);
 }
