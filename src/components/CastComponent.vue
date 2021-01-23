@@ -1,70 +1,40 @@
 <template lang="pug">
-  section.cast-box
+  section.double.mb-5
     .container
-      b-row(no-gutters)
-        h1.mb-5.mt-5.mx-auto Reparto
-      .container
-        b-row(no-gutters).d-flex.justify-content-around.align-items-center
-          b-col(cols="12", lg="2")
-            b-card.mx-2.py-3
-              b-row(no-gutters)
-                b-col(sm="4", lg="12")
-                  div.d-flex.justify-content-center
-                    b-avatar.mb-4.mr-2.mr-lg-0(align-self="center", variant='info', src='https://placekitten.com/300/300', size="7rem")
-                b-col(sm="8", lg="12")
-                  div.text-center
-                    b-card-title.text-center.text-md-left.text-lg-center Actor 1
-                    b-card-text.text-center.text-md-left.text-lg-center
-                      | Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
-                    b-button(href='#' variant='primary') Go somewhere
-          b-col(cols="12", lg="2")
-            b-card.mx-2.py-3
-              b-row(no-gutters)
-                b-col(sm="4", lg="12")
-                  div.d-flex.justify-content-center
-                    b-avatar.mb-4.mr-2.mr-lg-0(align-self="center", variant='info', src='https://placekitten.com/300/300', size="7rem")
-                b-col(sm="8", lg="12")
-                  div.text-center
-                    b-card-title.text-center.text-md-left.text-lg-center Actor 2
-                    b-card-text.text-center.text-md-left.text-lg-center
-                      | Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
-                    b-button(href='#' variant='primary') Go somewhere
-          b-col(cols="12", lg="2")
-            b-card.mx-2.py-3
-              b-row(no-gutters)
-                b-col(sm="4", lg="12")
-                  div.d-flex.justify-content-center
-                    b-avatar.mb-4.mr-2.mr-lg-0(align-self="center", variant='info', src='https://placekitten.com/300/300', size="7rem")
-                b-col(sm="8", lg="12")
-                  div.text-center
-                    b-card-title.text-center.text-md-left.text-lg-center Actor 3
-                    b-card-text.text-center.text-md-left.text-lg-center
-                      | Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
-                    b-button(href='#' variant='primary') Go somewhere
-          b-col(cols="12", lg="2")
-            b-card.mx-2.py-3
-              b-row(no-gutters)
-                b-col(sm="4", lg="12")
-                  div.d-flex.justify-content-center
-                    b-avatar.mb-4.mr-2.mr-lg-0(align-self="center", variant='info', src='https://placekitten.com/300/300', size="7rem")
-                b-col(sm="8", lg="12")
-                  div.text-center
-                    b-card-title.text-center.text-md-left.text-lg-center Actor 4
-                    b-card-text.text-center.text-md-left.text-lg-center
-                      | Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
-                    b-button(href='#' variant='primary') Go somewhere
-          b-col(cols="12", lg="2")
-            b-card.mx-2.py-3
-              b-row(no-gutters)
-                b-col(sm="4", lg="12")
-                  div.d-flex.justify-content-center
-                    b-avatar.mb-4.mr-2.mr-lg-0(align-self="center", variant='info', src='https://placekitten.com/300/300', size="7rem")
-                b-col(sm="8", lg="12")
-                  div.text-center
-                    b-card-title.text-center.text-md-left.text-lg-center Actor 5
-                    b-card-text.text-center.text-md-left.text-lg-center
-                      | Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
-                    b-button(href='#' variant='primary') Go somewhere
+      .row
+        .col-12.text-center.mb-3
+          img.img-fluid(svg-inline, src='@/assets/svg/head.svg', alt='Ornament', width='150px')
+        .col-12
+          h2.text-center.headline.mb-4
+            span.rye.border-top.border-bottom Reparto
+      .row.text-center.mb-5
+        .col
+          .cast-title
+            h3.ultra Mirella Cousiño
+            h4
+              i Angelina Zilcher
+          .n-img
+            img.mx-auto(svg-inline, src='@/assets/cast/angelina.png', alt='Angelina Zilcher')
+          .cast-content
+            p Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
+        .col
+          .cast-title
+            h3.ultra Julio Bustamante
+            h4
+              i Esteban
+          .n-img
+            img.mx-auto(svg-inline, src='@/assets/cast/esteban.png', alt='Esteban')
+          .cast-content
+            p Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
+        .col
+          .cast-title
+            h3.ultra Matuncho Cousiño
+            h4
+              i Gustavo Contreras
+          .n-img
+            img.mx-auto(svg-inline, src='@/assets/cast/gustavo.png', alt='Gustavo Contreras')
+          .cast-content
+            p Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
 </template>
 
 <script>
@@ -79,15 +49,40 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-.hv-border-radius-card{
-    img{
-      border-radius:100px;
-      margin-bottom: 30px;
-    }
+.cast-title{
+  h3{
+    font-size: 1.2em;
   }
-.cast-box{
-  width: 100%;
-  min-height: 100vh;
-  padding-top: 10px;
+  h4{
+    font-size: .9em;
   }
+  margin: 8px 0;
+}
+.cast-content{
+  font-size: .9em;
+}
+.n-img{
+  display: flex;
+    &::after{
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      width: 15%;
+      float: left;
+      font-size: 22px;
+      opacity: .6;
+  }
+  &::before{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 15%;
+    float: right;
+    font-size: 22px;
+    opacity: .6;
+  }
+  img{
+    width: 70%;
+  };
+}
 </style>

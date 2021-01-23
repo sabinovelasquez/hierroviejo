@@ -105,16 +105,16 @@ export default {
   margin: 8px 0;
 }
 .n-img{
-display: flex;
-  &::after{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    width: 15%;
-    content: "✸ ✸ ✸ ✸";
-    float: left;
-    font-size: 22px;
-    opacity: .6;
+  display: flex;
+    &::after{
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      width: 15%;
+      content: "✸ ✸ ✸ ✸";
+      float: left;
+      font-size: 22px;
+      opacity: .6;
   }
   &::before{
     display: flex;
