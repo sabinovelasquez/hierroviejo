@@ -16,22 +16,22 @@
                 | "La 'Empanada Western', chileniza recursos temáticos, visuales y narrativos de la época dorada del Western como género (1920 - 1960)"
               img(svg-inline, src='@/assets/svg/divider.svg', alt='Ornament')
           .pad.text-justify
-            p 1.- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel tincidunt risus. Fusce lacinia id eros nec efficitur. Vivamus eu hendrerit tellus. Aliquam dictum metus elit, vel laoreet purus ultricies vel. Proin ultricies sapien tellus, nec molestie velit condimentum sed. Sed ac tortor sed lorem pellentesque euismod ut ac est.
+            p 1.- El tratamiento visual de la película toma elementos claves del cine norteamericano de principio de siglo, inspirándose en técnicas (hoy perfeccionadas) de narrativa visual como el <a href='https://es.wikipedia.org/wiki/Matte_painting' target='_blank'><i>Matte Painting</i></a> para la extensión y reconstrucción de locaciones chilenas y francesas en la década de 1880.
           .n-img
             img.border-dark.border.img-fluid.pale(src='https://media.giphy.com/media/Whxnde2T0Soku8hnBi/giphy.gif' alt="Gone with the Wind (1939)")
             small
               i Gone with the Wind (1939), Victor Fleming.
           .pad.text-justify.mt-4
-            P 2.- Sed scelerisque sapien in augue egestas pretium. Aliquam ultricies ante ac dignissim consequat. Nunc vehicula ut justo vel ullamcorper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec at lorem a libero elementum tristique. Aenean tempor dolor nec sem volutpat varius. Duis blandit eleifend nisl, nec sagittis augue convallis venenatis. Vivamus nec augue a ex gravida rutrum at eget lacus. Curabitur blandit eros non dignissim lobortis.
+            P 2.- El <a href='https://es.wikipedia.org/wiki/Cine_expresionista_alem%C3%A1n' target='_blank'>expresionismo alemán</a> prima sobre la fotografía y arte de la película, resaltando contrastes culturales e ideológicos de los personajes.
         .col-12.col-md-4
           .pad
-            p 3.- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel tincidunt risus. Fusce lacinia id eros nec efficitur. Vivamus eu hendrerit tellus. Aliquam dictum metus elit, vel laoreet purus ultricies vel. Proin ultricies sapien tellus, nec molestie velit condimentum sed. Sed ac tortor sed lorem pellentesque euismod ut ac est. Maecenas consequat elementum nunc non eleifend. Ut tristique id massa id porta. Fusce condimentum sem neque, eget faucibus augue condimentum sed. Sed consectetur orci non augue luctus accumsan eget vitae nisi. Integer fringilla ligula ac urna vestibulum, sit amet pretium eros posuere.
+            p 3.- Siguiendo el modelo clásico de estructura de 8 secuencias de guión, la narrativa está inspirada en los Westerns clásicos, los cuales se enfocan en factores dramáticos y políticos en el contexto de la colonización de tierras no civilizadas, generalmente desde la perspectiva del héroe, su viaje y sacrificios para lograr el objetivo principal.
           .n-img
             img.border-dark.border.img-fluid.pale(src='https://media.giphy.com/media/KTKlZLRKyLBehnP49e/giphy.gif' alt="Stagecoach (1939)")
             small
               i Stagecoach (1939), John Ford.
           .pad.mt-4
-            p 4.- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel tincidunt risus. Fusce lacinia id eros nec efficitur. Vivamus eu hendrerit tellus. Aliquam dictum metus elit, vel laoreet purus ultricies vel. Proin ultricies sapien tellus, nec molestie velit condimentum sed. Sed ac tortor sed lorem pellentesque euismod ut ac est. Maecenas consequat elementum nunc non eleifend. Ut tristique id massa id porta. Fusce condimentum sem neque, eget faucibus augue condimentum sed. Sed consectetur orci non augue luctus accumsan eget vitae nisi. Integer fringilla ligula ac urna vestibulum, sit amet pretium eros posuere.
+            p 4.- Ocupamos el modelo clásico de actuación, apuntando a priorizar la composición y lenguaje cinematográfico en pos de presentar un ensayo visual y dramático sobre los orígenes de la idiosincrasia chilena.
           .n-img
             img.border-dark.border.img-fluid.pale(src='https://media.giphy.com/media/SedlAsef82GBJAuQ7I/giphy.gif' alt="The Ox-Bow Incident (1943)")
             small
