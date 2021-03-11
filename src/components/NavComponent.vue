@@ -1,7 +1,7 @@
 <template lang="pug">
-  div.border-bottom.border-dark
+  div
     b-navbar(toggleable='lg')
-      b-navbar-brand.hv-navbar-title(href='#') Hierro Viejo
+      b-navbar-brand.hv-navbar-title(href='#') Menu
       b-navbar-toggle(target='nav-collapse')
       b-collapse#nav-collapse(is-nav='')
         b-navbar-nav

@@ -1,7 +1,5 @@
 <template lang="pug">
   main.bg.texture-background
-    .blood
-      img(svg-inline, src='@/assets/images/blood.png', alt='splatter')
     NavComponent
     HeaderComponent
     SynopsisComponent
