@@ -24,15 +24,15 @@
                   h2 "A las herraduras hay que reemplazarlas, y botar el Hierro Viejo."
                 img(svg-inline, src='@/assets/svg/divider.svg', alt='Ornament')
               .pad
-                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel tincidunt risus. Fusce lacinia id eros nec efficitur. Vivamus eu hendrerit tellus. Aliquam dictum metus elit, vel laoreet purus ultricies vel. Proin ultricies sapien tellus, nec molestie velit condimentum sed. Sed ac tortor sed lorem pellentesque euismod ut ac est. Maecenas consequat elementum nunc non eleifend. Ut tristique id massa id porta. Fusce condimentum sem neque, eget faucibus augue condimentum sed. Sed consectetur orci non augue luctus accumsan eget vitae nisi. Integer fringilla ligula ac urna vestibulum, sit amet pretium eros posuere.
-                P Sed scelerisque sapien in augue egestas pretium. Aliquam ultricies ante ac dignissim consequat. Nunc vehicula ut justo vel ullamcorper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec at lorem a libero elementum tristique. Aenean tempor dolor nec sem volutpat varius. Duis blandit eleifend nisl, nec sagittis augue convallis venenatis. Vivamus nec augue a ex gravida rutrum at eget lacus. Curabitur blandit eros non dignissim lobortis.
+                p Una joven chilena educada en Francia llamada <strong>Mirella</strong>, vuelve a su pueblo natal, Hierro Viejo, al enterarse de la muerte de su padre <strong>Matías Cousiño</strong>, un querido y exitoso empresario <a href='https://es.wikipedia.org/wiki/Socialdemocracia' target='_blank'> socialdemocrático</a>.
+                p En Hierro Viejo deberá enfrentar el machismo y la violencia rural en Chile a finales de siglo XIX, con la intención de recuperar las tierras que su tío <strong>Matuncho</strong> se atribuyó ante la muerte de su hermano.
             .col-12.col-md-5
               .n-img.border-dark.border
                 img.img-fluid(src='@/assets/images/brural.jpg' alt="Synopsis Image")
               small
                 i Delincuentes, bandoleros y montoneros : violencia social en el espacio rural chileno (1850-1870).
               .pad.mt-3
-                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel tincidunt risus. Fusce lacinia id eros nec efficitur. Vivamus eu hendrerit tellus. Aliquam dictum metus elit, vel laoreet purus ultricies vel. Proin ultricies sapien tellus, nec molestie velit condimentum sed. Sed ac tortor sed lorem pellentesque euismod ut ac est.
+                p Junto a <strong>Julio</strong>, su amigo de infancia e hijo del comisario, Mirella recuerda las lecciones de su padre y hace frente a <strong>Pancho Falcato</strong>, un famoso bandolero rural indultado por su tío Matuncho y sus conexiones políticas, el cual busca migrar de la llamada <a href='https://es.wikipedia.org/wiki/Socialdemocracia' target='_blank'>"Pacificación de la Araucanía"</a> que afecta a su territorio.
         .col-12.text-center.mb-4
           img.img-fluid(svg-inline, src='@/assets/svg/tall.svg', alt='Ornament', width='100px')
       .row.mb-5
