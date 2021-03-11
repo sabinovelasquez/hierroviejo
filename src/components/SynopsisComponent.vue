@@ -2,6 +2,11 @@
   section.double.mt-5.mb-5
     .container
       .row
+        .col-12.col-md-6.align-content-center
+          img.border-dark.border.img-fluid(src="@/assets/images/valpo1880.jpg")
+          small
+            i Valparaíso (1880).
+      .row
         .col-12.col-md-3.align-content-center.text-center.mb-3
           .n-img
             img.border-dark.border.img-fluid(src='@/assets/images/falcato.jpg' alt="Synopsis Image")
