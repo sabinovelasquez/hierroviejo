@@ -17,7 +17,6 @@
           blockquote.text-center
             i "Cabalga a Petorca, manda un telegrama a Valparaíso. Notifica a Francia que ha muerto mi hermano Matías...."
             p.blockquote-footer Matuncho Cousiño
-
       .row
         .col-12.col-md-6.align-content-center
           img.border-dark.border.img-fluid(src="@/assets/images/valpo1880.jpg")
@@ -36,6 +35,19 @@
                 a(v-b-toggle href="#arguments" @click.prevent) ¿Quieres saber más?
         .col-12.text-center.mb-4.border-top
           img.fluid(svg-inline, src='@/assets/svg/flourisch.svg', alt='Ornament', width='100px')
+      .row.mb-4.align-items-center.text-center
+        .col.pale
+          img(src='@/assets/associates/ceac.png', height='80')
+        .col.pale
+          img(src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Logotipo_de_Televisi%C3%B3n_Nacional_de_Chile.svg/1920px-Logotipo_de_Televisi%C3%B3n_Nacional_de_Chile.svg.png', height='30')
+        .col.pale
+          img(src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Unreal_Engine_Logo.svg/1200px-Unreal_Engine_Logo.svg.png', height='70')
+        .col.pale
+          img(src='@/assets/associates/mgf.png', height='50')
+        .col.pale
+          img(src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfzd9s2At6oByoJIHt2z02Iy-Pon50nWGkTA&usqp=CAU', height='70')
+        .col.pale
+          img(src='https://acc-chile.com/wp-content/uploads/2019/06/logo_acc_footer.png', height='70')
       b-collapse#arguments
         .row
           .col-12.col-lg-6

@@ -14,7 +14,7 @@
             h4
               i Producción - Guión - Dirección
           .n-img
-            img.mx-auto(svg-inline, src='@/assets/team/sabino.jpg', alt='Sabino Velásquez')
+            img.mx-auto(svg-inline, src='@/assets/team/sabino.png', alt='Sabino Velásquez')
           .team-content
             p Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
         .col-6.col-md-3
@@ -23,7 +23,7 @@
             h4
               i Asistente de Dirección
           .n-img
-            img.mx-auto(svg-inline, src='@/assets/team/javiera.jpg', alt='Javiera Parra')
+            img.mx-auto(svg-inline, src='@/assets/team/javiera.png', alt='Javiera Parra')
           .team-content
             p Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
         .col-6.col-md-3
@@ -32,7 +32,7 @@
             h4
               i Asistente de Producción
           .n-img
-            img.mx-auto(svg-inline, src='@/assets/team/alex.jpg', alt='Alex Plaza')
+            img.mx-auto(svg-inline, src='@/assets/team/alex.png', alt='Alex Plaza')
           .team-content
             p Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
         .col-6.col-md-3
@@ -41,7 +41,25 @@
             h4
               i Producción Técnica
           .n-img
-            img.mx-auto(svg-inline, src='@/assets/team/renato.jpg', alt='Renato González')
+            img.mx-auto(svg-inline, src='@/assets/team/renato.png', alt='Renato González')
+          .team-content
+            p Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
+        .col-6.col-md-3
+          .team-title
+            h3.ultra Joan
+            h4
+              i Vestuario
+          .n-img
+            img.mx-auto(svg-inline, src='@/assets/team/joan.png', alt='Joan')
+          .team-content
+            p Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
+        .col-6.col-md-3
+          .team-title
+            h3.ultra Esteban Méndez
+            h4
+              i Montaje
+          .n-img
+            img.mx-auto(svg-inline, src='@/assets/team/esteban.png', alt='Esteban Méndez')
           .team-content
             p Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
         .col-6.col-md-3
@@ -50,7 +68,7 @@
             h4
               i Dirección de Fotografía
           .n-img
-            img.mx-auto(svg-inline, src='@/assets/team/wanted.jpg', alt='Wanted')
+            img.mx-auto(svg-inline, src='@/assets/team/wanted.png', alt='Wanted')
           .team-content
             button.btn.ribbon
               span Aplicar
@@ -60,7 +78,7 @@
             h4
               i Dirección de Arte
           .n-img
-            img.mx-auto(svg-inline, src='@/assets/team/wanted.jpg', alt='Wanted')
+            img.mx-auto(svg-inline, src='@/assets/team/wanted.png', alt='Wanted')
           .team-content
             button.btn.ribbon
               span Aplicar
@@ -87,16 +105,16 @@ export default {
   margin: 8px 0;
 }
 .n-img{
-display: flex;
-  &::after{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    width: 15%;
-    content: "✸ ✸ ✸ ✸";
-    float: left;
-    font-size: 22px;
-    opacity: .6;
+  display: flex;
+    &::after{
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      width: 15%;
+      content: "✸ ✸ ✸ ✸";
+      float: left;
+      font-size: 22px;
+      opacity: .6;
   }
   &::before{
     display: flex;
@@ -110,7 +128,7 @@ display: flex;
   }
   img{
     width: 70%;
-    border: double;
+    height: 70%;
   };
 }
 .team-content{
