@@ -13,7 +13,7 @@
             .pad
               img(svg-inline, src='@/assets/svg/divider.svg', alt='Ornament')
               .citation
-                | "La 'Empanada Western', chileniza recursos temáticos, visuales y narrativos de la época dorada del Western como género (1920 - 1960)"
+                h2 "La 'Empanada Western', chileniza recursos temáticos, visuales y narrativos de la época dorada del Western como género (1920 - 1960)"
               img(svg-inline, src='@/assets/svg/divider.svg', alt='Ornament')
           .pad.text-justify
             p 1.- El tratamiento visual de la película toma elementos claves del cine norteamericano de principio de siglo, inspirándose en técnicas (hoy perfeccionadas) de narrativa visual como el <a href='https://es.wikipedia.org/wiki/Matte_painting' target='_blank'><i>Matte Painting</i></a> para la extensión y reconstrucción de locaciones chilenas y francesas en la década de 1880.
