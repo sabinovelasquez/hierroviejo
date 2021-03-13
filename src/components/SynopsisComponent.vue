@@ -25,7 +25,7 @@
                 img(svg-inline, src='@/assets/svg/divider.svg', alt='Ornament')
               .pad
                 p Una joven chilena educada en Francia llamada <strong>Mirella</strong>, vuelve a su pueblo natal, Hierro Viejo, al enterarse de la muerte de su padre <strong>Matías Cousiño</strong>, un querido y exitoso empresario <a href='https://es.wikipedia.org/wiki/Socialdemocracia' target='_blank'> socialdemocrático</a>.
-                p En Hierro Viejo deberá enfrentar el machismo y la violencia rural en Chile a finales de siglo XIX, con la intención de recuperar las tierras que su tío <strong>Matuncho</strong> se atribuyó ante la muerte de su hermano.
+                p En Hierro Viejo deberá enfrentar el sexismo y la violencia rural en Chile a finales de siglo XIX, con la intención de recuperar las tierras que su tío <strong>Matuncho</strong> se atribuyó ante la muerte de su hermano.
             .col-12.col-md-5
               .n-img.border-dark.border
                 img.img-fluid(src='@/assets/images/brural.jpg' alt="Synopsis Image")

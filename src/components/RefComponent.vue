@@ -25,7 +25,7 @@
             P 2.- El <a href='https://es.wikipedia.org/wiki/Cine_expresionista_alem%C3%A1n' target='_blank'>expresionismo alemán</a> prima sobre la fotografía y arte de la película, resaltando contrastes culturales e ideológicos de los personajes.
         .col-12.col-md-4
           .pad
-            p 3.- Siguiendo el modelo clásico de estructura de 8 secuencias de guión, la narrativa está inspirada en los Westerns clásicos, los cuales se enfocan en factores dramáticos y políticos en el contexto de la colonización de tierras no civilizadas, generalmente desde la perspectiva del héroe, su viaje y sacrificios para lograr el objetivo principal.
+            p 3.- Siguiendo el modelo estructural de 8 secuencias, la narrativa está inspirada en los Westerns clásicos, enfocándose en factores dramáticos y políticos en el contexto de la colonización de tierras no civilizadas, generalmente desde la perspectiva del héroe, su viaje y sacrificios para lograr el objetivo principal.
           .n-img
             img.border-dark.border.img-fluid.pale(src='https://media.giphy.com/media/KTKlZLRKyLBehnP49e/giphy.gif' alt="Stagecoach (1939)")
             small
